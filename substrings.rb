@@ -1,7 +1,8 @@
 dictionary = ['h', 'hi', 'heller']
-matches = {}
 
 def substrings(word, lexicon)
+  matches = {}
+
   lexicon.each do |term|
     if term.match?(word)
       if matches[term]
