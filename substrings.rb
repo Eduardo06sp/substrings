@@ -4,7 +4,7 @@ def substrings(word, lexicon)
   matches = {}
 
   lexicon.each do |term|
-    if term.match?(word)
+    if word.match?(term)
       if matches[term]
         matches[term] += 1
       else
