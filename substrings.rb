@@ -9,7 +9,6 @@ def substrings(word, dictionary)
       else
         matches[dictionary_word] = 1
       end
-    else
     end
   end
 
