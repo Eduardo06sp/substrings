@@ -14,3 +14,5 @@ def substrings(word, lexicon)
 
   return matches
 end
+
+p substrings("hichew", dictionary)
