@@ -1,7 +1,7 @@
 dictionary = ['h', 'hi', 'heller']
 
 def substrings(string, lexicon)
-  test_string = string.split(" ")
+  test_string = string.downcase.split(" ")
   matches = {}
 
   test_string.each do |word|
